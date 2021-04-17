@@ -1,7 +1,7 @@
 .menu{
 list-style:none;
  font-family: 'Dancing Script', cursive;
-position: absolute;
+position:fixed;
 top:10px;
 right:30px;
 cursor:pointer;
@@ -11,7 +11,7 @@ cursor:pointer;
 float:left;
 color:darkblue;
 padding-top:5px;
-padding-right:10px
+padding-right:10px;
 padding-left:10px;
 padding-bottom:5px;
 font-size:25px;
@@ -20,5 +20,37 @@ font-size:25px;
 background-color:lightblue;
 }
 body{
-  background-color:lightgray;  
+text-align:center;
+}
+#Home{
+height:500px;
+background:linear-gradient(red 20%,blue 100%);
+display:table;
+color:cyan;
+width:100%;
+}
+#pic{
+width:400px;
+margin-top:50px;
+ margin-bottom:25px;
+}
+a{
+text-decoration:none;    
+}
+#Contact{
+ background:red;  
+}
+#Contact iframe{
+ width:100%;   
+}   
+h2{
+ font-family: 'Pacifico', cursive;   
+}
+#Fortnite{
+width:650px;
+height:350px;
+}
+#Maradona{
+width:700px;
+height:350px;
 }
