@@ -1,56 +1,47 @@
-.menu{
-list-style:none;
- font-family: 'Dancing Script', cursive;
-position:fixed;
-top:10px;
-right:30px;
-cursor:pointer;
+.announcment{
+background-color: blue;
+width: 100%;
+    height: 30px;
+}
+#Marquee_style{
+    direction: right;
+    font-size: 16px;
+    color: aqua;
+    width: 100%;
+height:100px;
+}
+#video{
+width:100%;
+    height:500px;
+    border:none;
+}
+.travel_div {
+    border: 1px solid #c7c7c7;
+    float: none;
 }
 
-.links{
-float:left;
-color:darkblue;
-padding-top:5px;
-padding-right:10px;
-padding-left:10px;
-padding-bottom:5px;
-font-size:25px;
+.travel_div img {
+    width: 100%;
 }
-.links:hover{
-background-color:lightblue;
+.travel_div h5,travel_div p{
+margin-left: 20px;
 }
-body{
-text-align:center;
+.travel_div hr{
+  width: 230px;  
 }
-#Home{
-height:500px;
-background:linear-gradient(red 20%,blue 100%);
-display:table;
-color:cyan;
-width:100%;
+.row::after { 
+ content: "";
+ clear: both;
+display: table; }
+.movie_head {
+font-size: 20px; 
+    padding: 6px 22px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 100%; display:
+        inline-block; }
+.movie_head i {
+    float: right; 
 }
-#pic{
-width:400px;
-margin-top:50px;
- margin-bottom:25px;
-}
-a{
-text-decoration:none;    
-}
-#Contact{
- background:red;  
-}
-#Contact iframe{
- width:100%;   
-}   
-h2{
- font-family: 'Pacifico', cursive;   
-}
-#Fortnite{
-width:650px;
-height:350px;
-}
-#Maradona{
-width:700px;
-height:350px;
-}
+.movie_text span { 
+    color: #ff7700; }

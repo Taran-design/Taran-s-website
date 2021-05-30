@@ -1,66 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Taran's Website</title>
-  <link rel="stylesheet" href="style.css">
-<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
-<script src=""></script>
-<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <script src=""></script>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body> 
-<ul class="menu">
-<li class="links"><a href="#Home">Home</a></li>   
-<li class="links"><a href="#Hobbies">Hobbies</a></li> 
-<li class="links"><a href="#Favorites">Favorites</a></li>
-<li class="links"><a href="#Skills">Skills</a></li>
-<li class="links"><a href="#Contact">Contact</a></li>
-</ul> 
-<section id="Home">
-<div><img id="pic"src="BHUA0266.JPG"></div>
-<div><h1>Hello i'm Taran!!</h1>
-<br>
-<h3>Welcome to my blog.</h3>
-</div>
-</section>
-<section id="Hobbies">
- <h2>I love football!</h2> 
-<img src="https://d3nfwcxd527z59.cloudfront.net/content/uploads/2019/10/03103831/Lionel-Messi-dribble-Barcelona-Real-Madrid.jpg">
-<p>Football!!Is my favorite hobbie in the world I really like it and I'm very good at it.I play for FC Barcelona juniors and i'm a striker.In school it's still the same but,i'm sometimes goalie.</p>
- </section>   
-<section id="Favorites"></section>
-<div>
- <h2>My favorite games.</h2> 
-<img id="Fortnite"src="https://img.fortniteinsider.com/wp-content/uploads/2019/11/15192845/Fortnite-Exclusive-Skins.jpg">
-<p>Fortnite is an online game or video game that many people play.It's a battle royale game with tons and tons of game modes.There are different seasons and there has only been 1 different chapter!</p>
-</div>
-<div>
-<img id="Maradona"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJjcOTTJ_WQ-gs7Cy-iT2DAOQENL6XbJBxiQ&usqp=CAU">
-<p>My favorite footballer Diego maradona had rose to the top very quickly at a young age;he would be scoring goal after goal after goal then because how good he was he went in the championship!</p>
-</div>
-<section id="Skills">
- 
-<h2>Apps</h2>
-<iframe width="400" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/fgEi7N_HFPARtfj7qvthtXbmX2rvunhiA-ZQebsjVdc/embed"></iframe>
 
-<iframe width="400" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/4MpS85pGZAAEO4D3-DjR6GP9WYVifwQ_oTij1GgHf0U/embed"></iframe>
-<br>
-<h2>Games</h2>
-<a href="https://studio.code.org/projects/playlab/9V-Dsno-80jLh5TztxzdtJC_ufGmc2yHXL8S_uLiJPs" target="_blank"><img src="game.png">
-</a>
-<a href="https://studio.code.org/projects/flappy/Xx8WheE8skINoawE53FcKgWhYx5-bLEWs4yJJ0PoEBg" target="_blank"><img src="Untitled.png"></a>
-<br>
-<h2>Chatbot</h2>
-<iframe
-    allow="microphone;"
-    width="400"
-    height="620"
-    src="https://console.dialogflow.com/api-client/demo/embedded/6ab55426-f9a6-44fc-b5c6-b32d9ca79458">
-</iframe>
+<body>
+    <nav class="navbar navbar-inverse" style="position: sticky;top:0;z-index:9999">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navtaran">
+                <span class="icon-bar"></span> <span class="icon-bar"></span>
+                <span class="icon-bar"></span> <span class="icon-bar"></span>
 
-</section>
-<section id =Contact></section>
- <iframe src="https://www.google.com/maps/embed?pb=!4v1618663564844!6m8!1m7!1sNxL98vQ9b0WshbBI65IJVg!2m2!1d52.88995121744276!2d-1.503248065854777!3f35.615055396852405!4f-0.9541694222650108!5f0.9081690617078463" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-</body>
- </html>
+            </button>
+            <a class="navbar-brand" href="https://www.akaalprimaryschool.org/">Akaal Primary school
+            </a>
+        </div>
+        <div class="collapse navbar-collapse" id="navtaran">
+            <ul class="nav navbar-nav">
+                <li><a href="#campus_life">Campus Life</a></li>
+                <li><a href="#achievments">Achievments</a></li>
+                <li><a href="#what's_new">What's New</a></li>
+                <li><a href="#alumni">Alumni</a></li>
+                <li><a href="#contact_us">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="announcment"><marquee id="Marquee_style" onmouseover="this.stop();" onmouseout="this.start();">*** Feel free to ask queries on school@gmail.com ***</marquee>
+    </div>
+    <iframe  src="https://www.youtube.com/embed/c4WRudfyzdU" id="video"></iframe>
+    <div class="container">
+          <div class="page-header" id="campus_life">
+            <h2 class="text-capitalize">campus life</h2>
+        </div>
+        <div class="row">
+        <div class="travel_div">
+                <img src="images.jpg" class="img-responsive">
+                <h4 class="text-capitalize"><kbd>Reading area </kbd></h4>
+                <hr>
+
+                <h5 class="text-primary text-left text-capitalize">I have visited yiga cheoling monastery in 2017</h5>
+                <p class="text-muted text-left">One of the oldest Monastery in Darjeeling. It is situated in peaceful and beautiful landscape just 15 minutes walk from Ghoom Railway Station. We can see religious God and Goddess paintings believed by Buddhism inside which can give spiritual power to one who prays there with clean heart. From the compound of Monastery on a clear day one can have a scenery of hills all around which is great for nature lovers.
+                </p>
+            </div>
+             <div class="travel_div">
+                <img src="download%20(3).jpg" class="img-responsive">
+                <h4 class="text-capitalize"><kbd>Campus</kbd></h4>
+                <hr>
+
+                <h5 class="text-primary text-left text-capitalize">I have visited yiga cheoling monastery in 2017</h5>
+                <p class="text-muted text-left">One of the oldest Monastery in Darjeeling. It is situated in peaceful and beautiful landscape just 15 minutes walk from Ghoom Railway Station. We can see religious God and Goddess paintings believed by Buddhism inside which can give spiritual power to one who prays there with clean heart. From the compound of Monastery on a clear day one can have a scenery of hills all around which is great for nature lovers.
+                </p>
+            </div>
+            <div class="travel_div">
+                <img src="images%20(1).jpg" class="img-responsive">
+                <h4 class="text-capitalize"><kbd>Infrastructure</kbd></h4>
+                <hr>
+
+                <h5 class="text-primary text-left text-capitalize">I have visited yiga cheoling monastery in 2017</h5>
+                <p class="text-muted text-left">One of the oldest Monastery in Darjeeling. It is situated in peaceful and beautiful landscape just 15 minutes walk from Ghoom Railway Station. We can see religious God and Goddess paintings believed by Buddhism inside which can give spiritual power to one who prays there with clean heart. From the compound of Monastery on a clear day one can have a scenery of hills all around which is great for nature lovers.
+                </p>
+            </div>
+      </div>
+         <div class="page-header" id="achievments">
+            <h2 class="text-capitalize">Achievments</h2>
+        </div>
+        <div class="bg-primary movie_head" data-toggle="collapse" data-target="#Avengers_endgame">
+            <span class="glyphicon glyphicon-film"></span>Avengers Endgame
+            <i class="fa fa-sort-desc"></i>
+        </div>
+        <div class="collapse" id="Avengers_endgame">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <img src="movie2.jpg" class="img-responsive img-thumbail">
+            </div>
+            <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 movie_text">
+                <h5 class="text-warning text-left text-capitalize">Excellent film to culminate MCU ride
+                    <span class="glyphicon glyphicon-star"></span> <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                </h5>
+                <p>Saw it today with my kids and they loved it.You should have a minimal previous understanding of the movies or you’ll miss 40% of the fun.At minimum:Infinity WarCivil WarBlack PantherAge ofAnt Man and the WaspProblem is that the whole movie is homage to all movies. Yet you will enjoy it a lot.There is at the beginning of the movie a (spoiler alert) head dismemberment that is quite impressive. But most is comic book style figand battles.Must go to bathroom just before the movie because ut does last 3 hours all worthwhile</p>
+            </div>
+        </div>
+  <div class="bg-primary movie_head" data-toggle="collapse" data-target="#Avengers_endgame">
+            <span class="glyphicon glyphicon-film"></span>Avengers Endgame
+            <i class="fa fa-sort-desc"></i>
+        </div>
+        <div class="collapse" id="Avengers_endgame">
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <img src="movie2.jpg" class="img-responsive img-thumbail">
+            </div>
+            <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 movie_text">
+                <h5 class="text-warning text-left text-capitalize">Excellent film to culminate MCU ride
+                    <span class="glyphicon glyphicon-star"></span> <span class="glyphicon glyphicon-star"></span>
+                    <span class="glyphicon glyphicon-star"></span>
+                </h5>
+                <p>Saw it today with my kids and they loved it.You should have a minimal previous understanding of the movies or you’ll miss 40% of the fun.At minimum:Infinity WarCivil WarBlack PantherAge ofAnt Man and the WaspProblem is that the whole movie is homage to all movies. Yet you will enjoy it a lot.There is at the beginning of the movie a (spoiler alert) head dismemberment that is quite impressive. But most is comic book style figand battles.Must go to bathroom just before the movie because ut does last 3 hours all worthwhile</p>
+            </div>
+        </div>
+    </div>
